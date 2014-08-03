@@ -1,0 +1,2 @@
+class GetRent < Advert
+end

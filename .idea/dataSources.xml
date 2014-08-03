@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3052933303">
+    <data-source source="LOCAL" name="Rails cohab: development" uuid="16b8a580-6f45-4c6b-a186-050a63f03343">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:cohab_development</jdbc-url>
+      <user-name>andrew</user-name>
+      <user-password>dfdbdfdddfcfdfd8dfdedfd3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails cohab: test" uuid="fa7234f5-6db1-43af-9466-a3064a3df30f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:cohab_test</jdbc-url>
+      <user-name>andrew</user-name>
+      <user-password>dfdbdfdddfcfdfd8dfdedfd3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails cohab: production" uuid="ba300c2f-bb3e-41bf-9587-89698569016d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:cohab_production</jdbc-url>
+      <user-name>cohab</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe9dfe5dfe2dfebdfe8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

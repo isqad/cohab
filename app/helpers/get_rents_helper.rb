@@ -1,0 +1,2 @@
+module GetRentsHelper
+end

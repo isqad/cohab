@@ -1,0 +1,32 @@
+= simple_form_for give_rent do |f|
+  = f.simple_fields_for(f.object.dwelling || f.object.build_dwelling) do |d|
+    = d.input :type, :collection => %w(Apartment Room), :prompt => 'Выберите тип'
+    = d.input :count_room
+    = d.input :level
+    = d.input :area
+    = d.input :dwelling_area
+    = d.input :kitchen_area
+    = d.input :adjacent_rooms
+    = d.input :separated_bathroom
+    = d.input :address
+
+  = f.input :furniture_exists
+  = f.input :fridge_exists
+  = f.input :washer_exists
+  = f.input :tv_exists
+  = f.input :phone_exists
+  = f.input :children_allow
+  = f.input :wild_allow
+  = f.input :price
+  = f.input :description
+
+  = f.simple_fields_for(f.object.user || f.object.build_user) do |u|
+    = u.input :phone
+    = u.input :email
+    = u.input :password
+
+  = f.button :submit
+
+
+
+

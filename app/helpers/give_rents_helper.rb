@@ -1,0 +1,2 @@
+module GiveRentsHelper
+end
